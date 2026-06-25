@@ -4,8 +4,10 @@
 
 Slide deck web (navegación **siguiente → siguiente → siguiente**), estética de plano/obra de construcción, 100% en español y CLP. Sin dependencias ni build: HTML + CSS + JS estáticos.
 
+**Enfoque: piloto de validación.** El deck propone primero un **piloto de bajo riesgo (~CLP 300M)** en un **strip center / mall** (que hereda la recepción del edificio — sin cambio de destino) para probar la demanda, con KPIs de decisión y un camino claro al **flagship** (~CLP 950M) solo si el piloto valida. Solo arriendo (sin compra de inmueble).
+
 ## Contenido (17 láminas)
-Portada · Oportunidad · Concepto · Faenas · **La flota (máquinas)** · Mercado · Ubicación · Modelo de ingresos · Capacidad · Inversión (CapEx) · Costos (OpEx) · Proyección financiera · Retorno/ROI · Ventaja de baterías · Riesgos · Hoja de ruta · Cierre.
+Portada · Oportunidad · Concepto · Faenas · **La flota (máquinas)** · Mercado · **Ubicación del piloto (mall/strip)** · Modelo de ingresos · **El piloto en números** · **Capital del piloto** · **Economía mensual + equilibrio** · **KPIs / la decisión** · **Camino a escalar (flagship)** · Ventaja de baterías · Riesgos · **Hoja de ruta del piloto** · Cierre.
 
 Las máquinas son **ilustraciones SVG originales** (sin imágenes hotlinkeadas ni problemas de copyright), cada una rotulada con el producto real que representa y su precio de referencia en CLP. Máquina insignia: **excavadora Volvo licenciada**.
 
