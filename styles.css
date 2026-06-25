@@ -205,6 +205,19 @@ table.t tr.total td{background:rgba(255,180,0,.14); color:#fff; font-weight:600;
 .bar .v{font-family:var(--display); font-size:17px; color:#fff}
 .bar .yr{font-family:var(--head); font-weight:600; letter-spacing:.1em; font-size:11px; color:var(--muted); text-transform:uppercase}
 
+/* cash-flow diverging chart */
+.cashflow{margin-top:16px}
+.cf-plot{position:relative; height:188px; display:flex; gap:7px; align-items:flex-end}
+.cf-col{flex:1; position:relative; height:100%}
+.cf-bar{position:absolute; left:10%; right:10%; transform:scaleY(0); transform-origin:bottom; transition:transform .6s cubic-bezier(.16,.84,.34,1)}
+.is-active .cf-bar{transform:scaleY(1)}
+.cf-bar.neg{background:linear-gradient(180deg,#7a8896,#4d5965); border-radius:0 0 4px 4px; transform-origin:top}
+.cf-bar.pos{background:linear-gradient(180deg,#ffc83f,#f2a000); border-radius:4px 4px 0 0}
+.cf-zero{position:absolute; left:0; right:0; bottom:56px; height:0; border-top:2px dashed rgba(255,255,255,.45); z-index:2}
+.cf-zero span{position:absolute; left:0; top:5px; font-family:var(--head); font-weight:600; font-size:10.5px; letter-spacing:.06em; color:var(--muted)}
+.cf-labels{display:flex; gap:7px; margin-top:7px}
+.cf-labels span{flex:1; text-align:center; font-family:var(--head); font-weight:600; font-size:10px; color:var(--muted)}
+
 /* ---------- COVER ---------- */
 .cover{align-items:center; text-align:center}
 .cover .wrap{display:flex; flex-direction:column; align-items:center}
